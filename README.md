@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone Project on Behance Design
 
 > This is Microverse's first capstone project, where I built a mobile and desktop website for a fictional golf club event implementing the concepts I have earned in the first module: CSS, HTML, and JavaScript
 
@@ -13,9 +13,13 @@
 
 [Live Demo Link](https://abreham1222.github.io/capstone-project/)
 
+## Project Introduction
+
+[Presentation Loom Video](https://www.loom.com/share/67882df1be504321ab479ee61f2e4a4f)
+
 ## Getting Started
 
-**Just clone the project by runing the `git clone https://github.com/abreham1222/My-portfolio.git` command in your command line, and you are done.**
+**Just clone the project by runing the `https://github.com/abreham1222/capstone-project.git` command in your command line, and you are done.**
 
 ## Author
 
