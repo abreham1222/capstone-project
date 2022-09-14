@@ -118,3 +118,26 @@ header nav a.highlighted-menu {
   padding: 6px 10px;
   color: #ee523c;
 }
+
+#headline {
+  background-image: url('./media/home_bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 12px 12px 36px;
+}
+
+#headline > i {
+  cursor: pointer;
+  font-size: 4em;
+  color: #515151;
+}
+
+#headline > h1 {
+  background: linear-gradient(to right, #f11904, #a60000, #f6551b, #ef3204);
+  background-clip: text; /* stylelint-disable-line */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin: 24px 0;
+}
