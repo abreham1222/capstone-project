@@ -362,3 +362,34 @@ div.past-events figure > figcaption {
   color: #fcfdfe;
   font-weight: 700;
 }
+
+#featured-horses {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+#featured-horses > h2 {
+  color: #272a31;
+  font-size: 17px;
+  align-self: center;
+  margin: 12px;
+}
+
+#featured-horses > ul {
+  padding: 24px 0;
+}
+
+#featured-horses .horse-card {
+  display: flex;
+  gap: 10px;
+  margin: 24px 0;
+}
+
+.horse-card picture {
+  flex: 0 0 30%;
+  background-image: url('./media/chess-background.jpg');
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
