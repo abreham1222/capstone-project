@@ -57,3 +57,19 @@ header {
     margin-left: -100%;
   }
 }
+
+header > ul {
+  display: flex;
+  background-color: #3e3e3e;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+  padding: 0 12px;
+  height: 28px;
+}
+
+header > ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9em;
+}
