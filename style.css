@@ -484,4 +484,32 @@ div.breadcrumbs {
     padding: 0 10%;
     margin: 0 auto;
   }
+
+  header .close-menu {
+    display: none;
+  }
+
+  header nav {
+    padding: 24px 10%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: end;
+    align-items: center;
+  }
+
+  header nav a {
+    color: #272a31;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+  }
 }
