@@ -100,3 +100,21 @@ header nav {
   gap: 24px;
   width: 100%;
 }
+
+header nav > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+header nav a.active {
+  color: #ee523c;
+}
+
+header nav a.highlighted-menu {
+  display: inline-block;
+  border: 4px #ee523c solid;
+  padding: 6px 10px;
+  color: #ee523c;
+}
