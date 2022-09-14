@@ -73,3 +73,30 @@ header > ul a {
   color: white;
   font-size: 0.9em;
 }
+
+header nav a {
+  color: #272a31;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+header > ul a:hover {
+  color: #d3d3d3;
+}
+
+header .close-menu {
+  float: right;
+  font-size: 3em;
+  margin: 8px;
+  color: #d3d3d3;
+  cursor: pointer;
+}
+
+header nav {
+  padding: 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
