@@ -462,3 +462,26 @@ footer.about-footer img.mobile {
 div.breadcrumbs {
   display: none;
 }
+
+@media screen and (min-width: 768px) {
+  .mobile-hidden {
+    animation: none;
+  }
+
+  .lock-scroll {
+    overflow: auto;
+  }
+
+  header {
+    display: block;
+    position: relative;
+    height: auto;
+    margin-left: 0;
+    box-shadow: 3px 1px 10px #909091;
+  }
+
+  header > ul {
+    padding: 0 10%;
+    margin: 0 auto;
+  }
+}
