@@ -141,3 +141,15 @@ header nav a.highlighted-menu {
   color: transparent;
   margin: 24px 0;
 }
+
+section.about-details h2 {
+  color: #272a31;
+  font-size: 22px;
+  text-align: center;
+}
+
+#headline > h2,
+#headline > h4 {
+  color: #4f4f4f;
+  margin: 16px 0;
+}
