@@ -1,45 +1,45 @@
 const menuBtn = document.querySelector('#menu-button');
 const closeMenuBtn = document.querySelector('i.close-menu');
 const header = document.querySelector('header');
-const horseCardSkeleton = document.querySelector('#horse-card-skeleton');
-const featuredHorses = document.querySelector('#featured-horses ul');
+const golfCardSkeleton = document.querySelector('#golf-card-skeleton');
+const featuredGolfes = document.querySelector('#featured-golfs ul');
 const body = document.querySelector('body');
-const FEATURED_HORSES = [
+const FEATURED_GOLFES = [
     {
-      name: 'C Runner',
-      highlights: 'TB, DK B/, G, foaled February 19, 2017',
-      description: 'Seven times G1 winner. Total career earnings $382.000, best results achieved in 2020.',
-      img: './media/horse-1.jpg',
+      name: 'The Belfry',
+      highlights: '72 and measuring 7255 yards February 19, 2017',
+      description: 'The Belfry is an iconic venue located in Sutton Coldfield, North Warwickshire.',
+      img: './media/g1.jpeg',
     },
     {
-      name: 'Life is Cold',
-      highlights: 'TB, B, C, foaled April 08, 2018',
+      name: 'Augusta National Golf Club',
+      highlights: 'TB, A, N, April 08, 2018',
       description: 'Six times G1 winner. Total career earnings $3.400.000. The fans\' favorite to this year title.',
-      img: './media/horse-2.jpg',
+      img: './media/g2.jpeg',
     },
     {
-      name: 'Inglorious',
+      name: 'Golfasian Co',
       highlights: 'TB, DK B/, C, foaled March 01, 2018',
       description: 'Two times G1 winner. Total career earnings $613.000. The rookie of the year coming with great expectations.',
-      img: './media/horse-3.jpg',
+      img: './media/g3.jpeg',
     },
     {
-      name: 'Kick In',
+      name: 'Vattanac Golf Resort(Cambodia)',
       highlights: 'TB, GR/RO, H, foaled January 15, 2016',
       description: 'Ten times G1 winner. Total career earnings $2.700.000. The most experience contender for this year\'s event.',
-      img: './media/horse-4.jpg',
+      img: './media/g4.jpeg',
     },
     {
-      name: 'Black Cloud',
+      name: 'Sentosa Golf Club (Singapore)',
       highlights: 'TB, CH, C, foaled March 01, 2019',
-      description: 'Three times G1 winner. Total career earnings $860.000. Coming from Argentina as a top horse.',
-      img: './media/horse-5.jpg',
+      description: 'Three times G1 winner. Total career earnings $860.000. Coming from Argentina as a top golf players.',
+      img: './media/g5.jpeg',
     },
     {
-      name: 'Into My Life',
-      highlights: 'TB, DK B/, C, foaled February 9, 2019',
+      name: 'Abu Dhabi Golf Club (UAE)',
+      highlights: 'TB, DK AB/, C, foaled February 9, 2019',
       description: 'Three times G1 winner. Total career earnings $550.000. Son of the greatest Into Mischief, with a bright future.',
-      img: './media/horse-6.jpg',
+      img: './media/g6.jpeg',
     },
   ];
 
@@ -59,17 +59,17 @@ const FEATURED_HORSES = [
   };
 
 
-if (horseCardSkeleton) {
-    for (let i = 0; i < FEATURED_HORSES.length; i += 1) {
-      const card = horseCardSkeleton.cloneNode(true);
-      card.querySelector('img').src = FEATURED_HORSES[i].img;
-      card.querySelector('img').alt = FEATURED_HORSES[i].name;
-      card.querySelector('h3').textContent = FEATURED_HORSES[i].name;
-      card.querySelector('h5').textContent = FEATURED_HORSES[i].highlights;
-      card.querySelector('h6').textContent = FEATURED_HORSES[i].description;
-      featuredHorses.append(card);
+if (golfCardSkeleton) {
+    for (let i = 0; i < FEATURED_GOLFES.length; i += 1) {
+      const card = golfCardSkeleton.cloneNode(true);
+      card.querySelector('img').src = FEATURED_GOLFES[i].img;
+      card.querySelector('img').alt = FEATURED_GOLFES[i].name;
+      card.querySelector('h3').textContent = FEATURED_GOLFES[i].name;
+      card.querySelector('h5').textContent = FEATURED_GOLFES[i].highlights;
+      card.querySelector('h6').textContent = FEATURED_GOLFES[i].description;
+      featuredGolfes.append(card);
     }
-    horseCardSkeleton.remove();
+    golfCardSkeleton.remove();
   }
   
   menuBtn.onclick = toggleMenu;
