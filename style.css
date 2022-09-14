@@ -538,4 +538,26 @@ div.breadcrumbs {
     text-align: center;
     align-self: center;
   }
+
+  .horse-card h5 {
+    font-size: 16px;
+  }
+
+  footer.about-footer p {
+    color: #e8eae9;
+  }
+
+  #about-headline h5,
+  #about-headline p,
+  #about-headline p.about-info {
+    margin-top: 24px;
+  }
+
+  section.about-details h2 span {
+    top: 10px;
+    left: 47%;
+    border-bottom: 1px #ee523c solid;
+    width: 6%;
+  }
+
 }
