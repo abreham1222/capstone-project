@@ -584,4 +584,24 @@ div.breadcrumbs {
     width: 70%;
   }
 
+  #about-headline > h1 {
+    font-size: 43px;
+  }
+
+  .horse-card h3 {
+    font-size: 20px;
+  }
+
+  #headline > h3 {
+    font-size: 32px;
+  }
+
+  #about-headline > h3 {
+    display: none;
+  }
+
+  #headline > p {
+    width: 60%;
+  }
+
 }
