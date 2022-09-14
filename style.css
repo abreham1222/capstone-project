@@ -185,3 +185,39 @@ section.about-details h2 {
   font-size: 14px;
   color: #272a31;
 }
+
+#headline > h3,
+#about-headline > h3 {
+  color: #ee523c;
+  margin: 24px 0;
+}
+
+#about-headline > h3 {
+  text-align: center;
+}
+
+footer > p {
+  font-size: 12px;
+  margin: 24px 0;
+  color: #4e4e50;
+}
+
+section.about-details p {
+  color: #272a31;
+  text-align: center;
+  padding: 24px 0;
+}
+
+#headline > p {
+  background-color: #f7f7f7;
+  border: 4px white solid;
+  padding: 12px;
+  color: #272a31;
+  line-height: 1.5em;
+}
+
+#program-outline li p {
+  color: #d3d3d3;
+  font-size: 12px;
+  flex-basis: 65%;
+}
