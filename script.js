@@ -42,3 +42,19 @@ const FEATURED_HORSES = [
       img: './media/horse-6.jpg',
     },
   ];
+
+  const toggleMenu = () => {
+    if (header.classList.length === 0) {
+      header.classList.add('mobile-show');
+      body.classList.add('lock-scroll');
+    } else if (header.classList.contains('mobile-hidden')) {
+      header.classList.add('mobile-show');
+      body.classList.add('lock-scroll');
+      header.classList.remove('mobile-hidden');
+    } else {
+      header.classList.remove('mobile-show');
+      body.classList.remove('lock-scroll');
+      header.classList.add('mobile-hidden');
+    }
+  };
+  
