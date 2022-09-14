@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.cocogoose {
+  font-family: 'Cocogoose', sans-serif;
+}
