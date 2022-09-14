@@ -153,3 +153,35 @@ section.about-details h2 {
   color: #4f4f4f;
   margin: 16px 0;
 }
+
+#about-headline {
+  background-image: url('./media/about_us_bg.png');
+  background-repeat: no-repeat;
+  background-position: left 100px;
+  background-size: 300%;
+  background-color: #f7f7f7;
+  padding: 12px 12px 36px;
+}
+
+#about-headline > i {
+  cursor: pointer;
+  font-size: 4em;
+  color: #515151;
+}
+
+#about-headline > h1 {
+  color: #f6412a;
+  margin: 24px 0;
+  text-align: center;
+}
+
+#about-headline > h2,
+#about-headline > h4 {
+  color: #4f4f4f;
+  margin: 16px 0;
+}
+
+.horse-card h3 {
+  font-size: 14px;
+  color: #272a31;
+}
