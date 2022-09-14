@@ -604,4 +604,47 @@ div.breadcrumbs {
     width: 60%;
   }
 
+  #program-outline {
+    padding: 3.2em 10% 5em;
+    margin: 0 auto;
+  }
+
+  #program-outline > ul {
+    display: flex;
+    gap: 5px;
+    padding: 12px 0;
+    margin: 24px 0;
+  }
+
+  #program-outline > h2 {
+    color: white;
+    font-size: 24px;
+    align-self: center;
+    margin: 12px;
+  }
+
+  #program-outline li {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 36px 16px;
+    gap: 1.2em;
+  }
+
+  #program-outline li h3 {
+    color: #ee523c;
+    font-size: 18px;
+    flex: 1 1 auto;
+  }
+
+  #program-outline li p {
+    font-size: 16px;
+  }
+
+  #join-btn {
+    display: none;
+  }
+
 }
