@@ -41,7 +41,7 @@ const FEATURED_GOLFES = [
     description: 'Three times G1 winner. Total career earnings $550.000. Son of the greatest Into Mischief, with a bright future.',
     img: './media/g6.jpeg',
   },
-  ];
+];
 
 const toggleMenu = () => {
   if (header.classList.length === 0) {
@@ -70,6 +70,6 @@ if (golfCardSkeleton) {
   }
   golfCardSkeleton.remove();
 }
-  
+
 menuBtn.onclick = toggleMenu;
 closeMenuBtn.onclick = toggleMenu;
