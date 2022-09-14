@@ -646,7 +646,7 @@ div.breadcrumbs {
   #join-btn {
     display: none;
   }
-  
+
   .see-program {
     display: block;
     color: #d3d3d3;
@@ -671,6 +671,39 @@ div.breadcrumbs {
     justify-content: space-evenly;
     gap: 16px;
     margin-top: 32px;
+  }
+
+  #featured-horses {
+    padding: 3.2em 10% 5em;
+    margin: 0 auto;
+  }
+
+  #featured-horses > h2 {
+    font-size: 24px;
+  }
+
+  #featured-horses > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #featured-horses .horse-card {
+    display: flex;
+    gap: 10px;
+    flex: 1 1 50%;
+  }
+
+  .horse-card h6 {
+    font-size: 15px;
+  }
+
+  #partners {
+    padding: 3.2em 10%;
+    margin: 0 auto;
+  }
+
+  #partners > h2 {
+    font-size: 24px;
   }
 
   footer {
@@ -716,5 +749,4 @@ div.breadcrumbs {
     font-size: 17px;
     font-weight: 100;
   }
-
 }
