@@ -314,3 +314,51 @@ section.about-details h2 span,
   text-align: center;
   margin: 25px 0;
 }
+
+.see-program {
+  display: none;
+}
+
+#about-logo {
+  border-bottom: 1px #ececec solid;
+}
+
+div.past-events img {
+  width: 100%;
+  filter: grayscale(10%);
+}
+
+.horse-card picture > img {
+  width: 84%;
+  margin-top: 13%;
+  margin-left: 13%;
+}
+
+#about-logo > img {
+  border: 1px #ececec solid;
+  padding: 24px;
+  width: 90%;
+  align-self: center;
+}
+
+section.about-details {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 32px 24px;
+}
+
+div.past-events figure {
+  position: relative;
+  margin: 12px 0;
+}
+
+div.past-events figure > figcaption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fcfdfe;
+  font-weight: 700;
+}
