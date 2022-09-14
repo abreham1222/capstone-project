@@ -560,4 +560,28 @@ div.breadcrumbs {
     width: 6%;
   }
 
+  #about-headline h1 span {
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 48%;
+    border-bottom: 1px #ee523c solid;
+    width: 4%;
+  }
+
+  div.breadcrumbs i {
+    text-decoration: none;
+    color: #2e2e2e;
+  }
+
+  #headline > i,
+  #about-headline > i {
+    display: none;
+  }
+
+  #headline > h1 {
+    font-size: 43px;
+    width: 70%;
+  }
+
 }
